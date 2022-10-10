@@ -6,16 +6,16 @@ import './App.css';
 
 function App() {
 
-  const handleClick = () => {
-    window.open("https://www.undisclosedmedia.xyz");
-  };
+  // const handleClick = () => {
+  //   window.open("https://www.undisclosedmedia.xyz");
+  // };
 
   return (
     <div className="App">
       <header className="App-header">
-        <img onClick={handleClick} src={smiley} className="App-logo" alt="logo" />
+        {/* <img onClick={handleClick} src={smiley} className="App-logo" alt="logo" /> */}
         <h1>Roman Bellisari</h1>
-        <p>Welcome to the good side of the internet</p>
+        <p>One day, my website will live here</p>
       </header>
     </div>
   );
